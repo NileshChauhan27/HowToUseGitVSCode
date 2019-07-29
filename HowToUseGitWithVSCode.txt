@@ -1,0 +1,35 @@
+
+
+
+How to save files on Git
+
+
+
+
+One time setup:
+
+git config --global user.email "nileshprogramming@gmail.com"
+
+git config --global user.name "Nilesh Chauhan"
+
+
+
+add a repository named TempPractice
+
+Write the following command in local/vscode terminal:
+git remote add origin https://github.com/NileshChauhan27/TempPractice.git
+
+
+Make changes
+
+commit
+
+push
+
+if you see the following error:
+can't push refs to remote try running pull
+
+git pull
+
+git push -f origin master
+
