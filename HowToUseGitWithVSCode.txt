@@ -1,12 +1,12 @@
 
 
 
-How to save files on Git
+How to save files on Git with VSCode
 
 
 
 
-One time setup:
+One time setup for a new Git account:
 
 git config --global user.email "nileshprogramming@gmail.com"
 
@@ -14,17 +14,25 @@ git config --global user.name "Nilesh Chauhan"
 
 
 
-add a repository named TempPractice
+-- add a repository named TempPractice in GitHub
 
-Write the following command in local/vscode terminal:
+-- Write the following command in local/vscode terminal:
 git remote add origin https://github.com/NileshChauhan27/TempPractice.git
 
-
+-- In VSCode....
 Make changes
 
 commit
 
 push
+
+
+-- In VSCode
+Pull to edit a file from Git
+
+
+
+
 
 if you see the following error:
 can't push refs to remote try running pull
